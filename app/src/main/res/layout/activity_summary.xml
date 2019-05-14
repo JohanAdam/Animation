@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.recite.audiorecognitiontest.ui.SummaryActivity">
+
+    <TextView
+        android:id="@+id/verse_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Verse"/>
+
+    <TextView
+        android:id="@+id/verse_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.03"
+        android:textColor="#455a64"
+        android:textSize="48sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/verse_title"
+        app:layout_constraintTop_toBottomOf="@+id/verse_title"
+        tools:targetApi="lollipop"
+        android:text="SurahName"/>
+
+    <TextView
+        android:id="@+id/ayat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/verse_text"
+        app:layout_constraintTop_toBottomOf="@+id/verse_text"
+        android:text="Ayat"/>
+
+    <TextView
+        android:id="@+id/ayat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/ayat_title"
+        app:layout_constraintTop_toBottomOf="@+id/ayat_title"
+        android:text="Ayat here"/>
+
+
+</android.support.constraint.ConstraintLayout>

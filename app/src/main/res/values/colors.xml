@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#ff5274</color>
+    <color name="pinkDark">#993146</color>
+    <color name="blue">#6889ff</color>
+    <color name="ripple_light">#99ffffff</color>
+    <color name="dribbble">#fff06292</color>
+    <color name="fab_heart_full">#ffffffff</color>
+    <color name="fab_heart_empty">#ffffffff</color>
+    <color name="fuckin_white">#ffffff</color>
+    <color name="background_light">#ffffff</color>
+    <color name="error">#ffdd2c00</color>
+    <color name="grey_300">#ffe0e0e0</color>
+</resources>
